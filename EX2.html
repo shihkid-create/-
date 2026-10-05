@@ -1,0 +1,84 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- 2-8. 網頁標題 -->
+<title>施宇哲的作業二</title>
+
+<!-- 2-2. 網頁圖示 -->
+<link rel="icon" href="去背.png" type="image/png">
+
+<!-- 2-1. 啟動時出現對話框 -->
+<script>
+    alert("歡迎來到施宇哲的網頁！");
+</script>
+
+<style>
+    body { margin: 0; background-color: #9999FF; font-family: sans-serif; }
+    
+    /* 集中在中間的核心外框 */
+    .container { width: 800px; margin: 20px auto; background-color: white; }
+    
+    /* 五區塊顏色 */
+    header { background-color:#4682b4; color: ; padding: 15px; }
+    nav { background-color: #d8bfd8;padding: 10px; }
+    nav a { color: white; margin-right: 15px; text-decoration: none; }
+    
+    .main-box { display: flex; }
+    aside { width: 25%; background-color: #88AA00; padding: 15px; }
+    main { width: 75%; background-color: #4682b4; color: white; padding: 15px; }
+    
+    footer { background-color: #ddd; padding: 15px; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- 2-4. 頁首 -->
+    <header>
+        <h1 style="margin:0;">你好 南台</h1>
+        <p style="margin:5px 0 0 0;">非常無聊網頁</p>
+    </header>
+
+    <!-- 2-5. 導覽列 -->
+    <nav>
+        <a href="#">🏠 首頁</a>
+        <a href="#">🛒 關於我</a>
+        <a href="#">🖼️ 作品集</a>
+        <a href="#">📂 聯絡</a>
+        <a href="#">📄 分享</a>
+    </nav>
+
+    <!-- 2-3. 中間內容 -->
+    <div class="main-box">
+        <aside>
+            <h2 style="margin:0;">側邊欄</h2>
+        </aside>
+
+        <!-- 2-6. 主要內容區 -->
+        <main>
+            <h2 style="margin-top:0;">主要內容</h2>
+            <p>▶ 班級：電商四甲</p>
+            <p>▶ 姓名：施宇哲</p>
+            <p>▶ 學號：4B255002</p>
+            <p>▶ 大頭照與 PNG 圖示：</p>
+            
+            <img src="my-photo.png" height="120" alt="大頭照">
+            <img src="去背.png" height="100" alt="網頁圖示">
+            <p style="font-size:13px;">（圖片說明：施宇哲親自手繪去背的 PNG 網頁圖示）</p>
+        </main>
+    </div>
+
+    <!-- 2-7. 頁尾 -->
+    <footer>
+        <p style="margin:0;">©南台4B255002| 地址：台南市永康區南台街1號 | 電話：(06) 253-3131</p>
+        <p style="margin:5px 0;">Email: 4B255002@stust.edu.tw | 社群：<a href="#">Facebook</a></p>
+        <a href="#">Back to top</a>
+    </footer>
+
+</div>
+
+</body>
+</html>
